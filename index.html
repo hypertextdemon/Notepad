@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notepad</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <header>
+          <span>Habdur's Notepad</span>
+          <span>Note <span id="count">0</span> </span>
+        </header>
+
+        <form id="notepad">
+          <label>Title :- </label>
+          <input type="text" id="title" autofocus /><br />
+          <label>Date :-</label>
+          <input type="date" id="date" /><br />
+          <label>Description :-</label><br />
+          <div>
+            <textarea id="description" cols="20" rows="10"></textarea>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+
+        <header>
+          <span>My Note</span>
+
+          <span>Calender</span>
+        </header>
+
+        <ul>
+          <li>
+            <ol id="item"></ol>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
